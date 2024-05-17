@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pm2-start": "pm2 start 'sudo npm run dev'",
+    "pm2-stop": "pm2 stop 'sudo npm run'"
   },
   "dependencies": {
     "react": "^18.2.0",
