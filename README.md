@@ -3,6 +3,8 @@
 ## Overview
 
 This project is a responsive and cross-compatible web application built with React and Tailwind CSS. It is designed to provide a seamless user experience across different devices and browsers. The application is bundled using Vite and deployed on AWS.
+<img width="1440" alt="Screen Shot 2024-05-17 at 8 21 18 AM" src="https://github.com/justjjasper/WSM/assets/98243819/c01c79b3-379d-4c26-a4a3-b05bba1da705">
+
 
 ## Features
 
@@ -29,7 +31,7 @@ To get a local copy up and running, follow these steps:
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd your-repo-name
+    cd WSM
     ```
 3. **Install dependencies**:
     ```bash
