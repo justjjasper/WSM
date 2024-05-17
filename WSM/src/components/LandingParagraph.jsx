@@ -1,6 +1,6 @@
 export default function LandingParagraph() {
   return (
-    <section className="px-44 text-gray-500 py-16">
+    <section className="px-14 lg:px-44 text-gray-500 py-16">
       <p className="mb-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Phasellus nec dapibus mauris. Nullam quis ligula ac leo tristique convallis.
