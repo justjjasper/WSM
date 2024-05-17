@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { xSVG } from "../assets/dashboardSVG";
+import { xSVG, downVectorSVG } from "../assets/dashboardSVG";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,15 +20,17 @@ export default function Header() {
       </div>
       <div className="text-white font-bold text-3xl mr-auto">WSM</div>
       <div className="hidden lg:block">
-        <ul className="flex text-white gap-4">
+        <ul className="flex text-white">
           <li className="flex items-center gap-1 hover:cursor-pointer hover:text-gray-500">
             Products
+            {downVectorSVG}
           </li>
-          <li className="flex items-center gap-1 hover:cursor-pointer hover:text-gray-500">
+          <li className="flex items-center gap-1 hover:cursor-pointer hover:text-gray-500 px-2">
             Services
+            {downVectorSVG}
           </li>
-          <li className="hover:cursor-pointer hover:text-gray-500">Contact Us</li>
-          <li className="hover:cursor-pointer hover:text-gray-500">Media</li>
+          <li className="hover:cursor-pointer hover:text-gray-500 px-2">Contact Us</li>
+          <li className="hover:cursor-pointer hover:text-gray-500 px-2">Media</li>
           <li className="hover:cursor-pointer hover:text-gray-500">Gallery</li>
         </ul>
       </div>
